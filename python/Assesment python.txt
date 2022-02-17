@@ -1,0 +1,123 @@
+Contact_book = {}
+while True:
+ print("Options:\n X ==> EXIT \n A ==> ALL numbers \n S ==> SAVE \n SE ==> SEARCH the number")
+ choice = input("Please select one [E/A/S/SE] : ").upper()
+ if choice == "S":
+  person_name = input("Please enter the person name")
+  mobile_number = input("Please enter the mobile number")
+  Contactbook[person_name] = mobile_number
+ elif choice == "SE":
+  search_name = input("Enter the name of person")
+  print("So the number of",search_name, "is",Contact_book[search_name] )
+ elif choice == "A":
+  print(Contact_book)
+ elif choice == "E":
+ exit()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Contact_book = {}
+while True:
+ choice = input("Please select one [E/A/S/SE] \n X –> EXIT \n A ==> ALL numbers \n S ==> SAVE \n P==> SEARCH the number").upper()
+if choice == "S":
+ person_name = input("Please enter the person name”)
+ mobile_number = input("Please enter the mobile number”)
+ Contact_book[person_name] = mobile_number
+elif choice == "SE":
+search_name = input("Enter the name of person”)
+print("So the number of",search_name, "is",Contact_book[search_name] )
+elif choice == "A”:
+print(Contact_book)
+elif choice == "E”:
+break
+
+
+
+
+
+
+
+Contact_book = {}
+while True:
+ choice = input("Please select one [E/A/S/SE] \n X –> EXIT \n A ==> ALL numbers \n S ==> SAVE \n P==> SEARCH the number").upper()
+if choice == "S":
+ person_name = input("Please enter the person name")
+ mobile_number = input("Please enter the mobile number")
+ Contact_book[person_name] = mobile_number
+elif choice == "SE":
+ search_name = input("Enter the name of person")
+ print("So the number of",search_name, "is",Contact_book[search_name] )
+elif choice == "A":
+ print(Contact_book)
+elif choice == "E":
+ print("exit")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Contact_book = {}
+while True:
+ choice = input("Please select one [E/A/S/SE] \n X ==> EXIT \n A ==> ALL numbers \n S ==> SAVE \n SE ==> SEARCH the number").upper()
+ if choice == "S":
+  person_name = input("Please enter the person name")
+  mobile_number = input("Please enter the mobile number")
+  Contact_book[person_name] = mobile_number
+ elif choice == "SE":
+  search_name = input("Enter the name of person")
+  print("So the number of",search_name, "is",Contact_book[search_name] )
+ elif choice == "A":
+  print(Contact_book)
+ elif choice == "E":
+  exit()
+
+
+
+
+Contact_book = {}
+while True:
+ print("Options:\n X ==> EXIT \n A ==> ALL numbers \n S ==> SAVE \n SE ==> SEARCH the number")
+ choice = input("Please select one [E/A/S/SE] : ").upper()
+ if choice == "S":
+  person_name = input("Please enter the person name\t")
+  mobile_number = input("Please enter the mobile number\t")
+  Contact_book[person_name] = mobile_number
+ elif choice == "SE":
+  search_name = input("Enter the name of person\t")
+  print("So the number of",search_name, "is",Contact_book[search_name] )
+ elif choice == "A":
+  print(Contact_book)
+ elif choice == "E":
+  exit()
